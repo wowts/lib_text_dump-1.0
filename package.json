@@ -1,0 +1,24 @@
+{
+  "name": "@wowts/lib_text_dump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "author": "Sidoine De Wispelaere",
+  "license": "MIT",
+  "dependencies": {
+    "@wowts/lua": "^1.0.3",
+    "@wowts/tslib": "^1.0.0",
+    "@wowts/tsaddon": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wowts/lib_text_dump.git"
+  }
+}

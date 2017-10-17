@@ -1,0 +1,10 @@
+{
+    "extends": "tslint:recommended",
+    "rules":{
+        "no-empty":false,
+        "interface-name": false,
+        "max-line-length": false,
+        "no-unused-variable":true,
+        "max-classes-per-file":false
+    }
+}
