@@ -2,37 +2,37 @@
 # yarn lockfile v1
 
 
-"@wowts/lua@^1.0.2", "@wowts/lua@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@wowts/lua/-/lua-1.0.3.tgz#3e75d1ad1dac3095021d24e4a3a319dc27a7bbc8"
+"@wowts/lua@^1.0.3", "@wowts/lua@^1.0.5", "@wowts/lua@^1.2.0", "@wowts/lua@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@wowts/lua/-/lua-1.3.0.tgz#eb3ac622695780b6a1600c12836e1bf3ca6386ed"
 
 "@wowts/table@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@wowts/table/-/table-1.0.0.tgz#745ac84dc12dfbec7fd9c9ef1574576ded569fed"
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@wowts/table/-/table-1.0.1.tgz#21872a8d22c69582d9bdcc2808f1971a5bbeebfc"
   dependencies:
-    "@wowts/lua" "^1.0.2"
+    "@wowts/lua" "^1.0.5"
 
-"@wowts/tsaddon@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@wowts/tsaddon/-/tsaddon-1.0.0.tgz#4994e22c93be50b069bdd51bc49941ac84ce9266"
+"@wowts/tsaddon@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@wowts/tsaddon/-/tsaddon-1.1.2.tgz#d6907a4f25e49889ebc68d9502bb1c86bc050ab8"
   dependencies:
     "@wowts/lua" "^1.0.3"
     "@wowts/table" "^1.0.0"
     "@wowts/tslib" "^1.0.0"
-    "@wowts/wow-mock" "^1.0.1"
+    "@wowts/wow-mock" "^1.0.8"
 
-"@wowts/tslib@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@wowts/tslib/-/tslib-1.0.0.tgz#278bf29a3fbb955e19f612fcf10908183f82fea0"
+"@wowts/tslib@^1.0.0", "@wowts/tslib@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@wowts/tslib/-/tslib-1.1.0.tgz#f6582d3d617cbf28c8b3f781d6e9aa5c1cc4a939"
   dependencies:
-    "@wowts/lua" "^1.0.3"
+    "@wowts/lua" "^1.3.0"
 
-"@wowts/wow-mock@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@wowts/wow-mock/-/wow-mock-1.0.1.tgz#05006a65383554784265f95ebd2cc9c8e1a47b72"
+"@wowts/wow-mock@^1.0.8":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@wowts/wow-mock/-/wow-mock-1.6.0.tgz#b11ed9d714025e0e17f4a66b6a64fae3fe89ac4b"
   dependencies:
-    "@wowts/lua" "^1.0.2"
+    "@wowts/lua" "^1.2.0"
 
-typescript@^2.5.3:
-  version "2.5.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.5.3.tgz#df3dcdc38f3beb800d4bc322646b04a3f6ca7f0d"
+typescript@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.0.1.tgz#43738f29585d3a87575520a4b93ab6026ef11fdb"

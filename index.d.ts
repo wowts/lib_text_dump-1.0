@@ -1,7 +1,7 @@
 export declare class TextDump {
-    private name;
-    private width;
-    private height;
+    name: string;
+    width: number;
+    height: number;
     private lines;
     constructor(name: string, width: number, height: number);
     Clear(): void;
