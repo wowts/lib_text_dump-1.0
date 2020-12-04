@@ -14,7 +14,7 @@
   dependencies:
     "@wowts/lua" "^1.0.5"
 
-"@wowts/tsaddon@^1.0.0":
+"@wowts/tsaddon@^1.1.2":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@wowts/tsaddon/-/tsaddon-1.2.1.tgz#83934672316a8e1535717a3b7f13d890d0ebaab5"
   integrity sha512-er+u06tCtqMPsG+HuhkPBxgNXqWhR1iunpLcC+zYMfyurZyplSQhhQbizHN8h3NNpwlUD0vnV4krVM3N/a7Xdw==
@@ -24,7 +24,7 @@
     "@wowts/tslib" "^1.0.0"
     "@wowts/wow-mock" "^1.0.8"
 
-"@wowts/tslib@^1.0.0":
+"@wowts/tslib@^1.0.0", "@wowts/tslib@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@wowts/tslib/-/tslib-1.1.0.tgz#f6582d3d617cbf28c8b3f781d6e9aa5c1cc4a939"
   integrity sha512-fvtaNOKeSf5FbMXqjwXfajefsbd+hQDd7mTatG93eC7QsIBFvgvHSqCPxWxIsVOZkjxrhdPhGwxaUx0uAXaD+Q==
